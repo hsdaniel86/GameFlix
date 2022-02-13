@@ -1,0 +1,29 @@
+@media screen and (max-width:900px) {
+  header .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .principal-game .btn{
+    margin-bottom: 10px;
+    width: 180px;
+  }
+}
+
+@media screen and (min-width:1000px) {
+
+  .principal-game .description{
+    max-width: 50%;
+  }
+  
+}
+
+@media screen and (max-width: 1250px) {
+
+  .manufacturer .genres img{ width: 220px;}
+}
+
+@media screen and (max-width: 985px) {
+
+  .manufacturer .genres img{ width: 200px;}
+}

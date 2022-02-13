@@ -1,0 +1,145 @@
+:root{
+  --fundo: #ec5757;
+  --backGround: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #141414;
+  font-family: serif;
+  color: aliceblue;
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  color: #dd13dd;
+  font-family: 'Tangerine', Verdana;
+  font-size: 50px;
+  margin-left: 8px;
+}
+
+header nav a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #ec5757;
+  margin-right: 15px;
+  text-shadow: 1px 1px #dd13dd; 
+}
+
+header nav a :hover{
+  color: aqua;
+}
+
+/* Game Principal*/
+
+
+.principal-game{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  
+  background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)), url(/assets/image/71.jpg);
+  color: #06030a;
+  font-size: 16px;
+  
+  max-width: 100%;
+  height: 400px;
+  background-size: 100% 100%;
+  margin: 2%;
+}
+
+.container{
+  margin-left: 2%;
+}
+
+.principal-game .container{
+  width: 60%;
+}
+
+.principal-game .title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #f00;
+}
+
+.principal-game .description{
+  color: #fff; 
+  margin-top: 1%;
+}
+
+.principal-game .buttons{
+  margin-top: 15px;
+  display: block;
+  
+}
+
+.principal-game .btn{
+  background-color: rgba(255, 0, 0, .30);
+  border: none;
+  
+  padding: 15px 25px;
+  color: #fff;
+  margin-right: 15px;
+  width: 250px;
+  
+
+  cursor: pointer;
+  transition: .4s ease all;
+}
+
+.principal-game .btn:hover{
+  
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .70), 0 12px 16px 0 rgba(0, 0, 0, .70);
+  background-color: red;
+}
+
+.principal-game .btn i{
+  font-size: 20px;
+  margin-right: 5px;
+  color: black;
+}
+
+/* carousel */
+
+.boxGame{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.carousel-games{
+  margin-top: 2%;
+}
+
+/* manufacturer */
+
+.manufacturer{
+  
+  text-align: center;
+  margin-top: 1%;
+  color: #ec5757
+}
+
+.manufacturer .genres{
+  margin-top: 5px;
+  color: aliceblue;
+  
+}
+
+.manufacturer .genres img{
+  width: 360px;
+  height: auto;
+  margin: 1%;
+}
